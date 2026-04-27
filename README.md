@@ -1,8 +1,22 @@
 # Loup Garou
 
+## Captures d'écran
+
+### Lobby
+
+![](./lobby.png)
+
+### Tour du Cupidon durant la nuit
+
+![](./cupidon.png)
+
+### Les joueurs votent durant la journée
+
+![](./chasseur.png)
+
 ## Client
 
-### Compilation: 
+### Compilation:
 
 ```bash
 make build
@@ -30,6 +44,6 @@ python3 main.py
 ## Bugs
 
 - Les options de jeu présentes dans les lobbies ne fonctionnent pas (pas implémenté).
-![](./capture1.png)
+  ![](./capture1.png)
 
 - Certains clics ne s'enregistrent pas si on change de fenêtre entre les clients (pour voter par exemple il faut parfois faire plusieurs cliques).
